@@ -10,6 +10,7 @@ import {
   AuctionCreateView,
   AuctionView,
   HomeView,
+  NFTMintView,
 } from './views';
 import { AdminView } from './views/admin';
 import { BillingView } from './views/auction/billing';
@@ -54,7 +55,8 @@ export function Routes() {
               path="/auction/:id/billing"
               component={() => <BillingView />}
             />
-            <Route path="/" component={() => <HomeView />} />
+            <Route path="/" component={() => <NFTMintView />} />
+            <Route path="/nftmint" component={() => <NFTMintView />} />
           </Switch>
         </Providers>
       </HashRouter>

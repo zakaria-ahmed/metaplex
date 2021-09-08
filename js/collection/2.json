@@ -1,0 +1,16 @@
+{
+  "name": "SolPunk #6589",
+  "symbol": "",
+  "seller_fee_basis_points": 500,
+  "image": "2.png",
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "DDr2p6ZNLjDEYNgWjzbbwz8hXaoY2HFVtPzmNwarhqud",
+        "share": 100
+      }
+    ],
+    "files": [{ "uri": "2.png", "type": "image/png" }]
+  }
+}
